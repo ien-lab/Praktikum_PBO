@@ -1,4 +1,4 @@
-# Praktikum02_PBO
+# Lab Session 01 PBO
 Nama  : Indah Rahmadianti
 NIM   : L0325029
 Kelas : B Informatika PSDKU
