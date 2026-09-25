@@ -22,11 +22,10 @@ Penerapan materi pada program:
 
 
 # Output Program:
-==========================================
+-----------------------------------------------
             Cihuyy Store
          Kategori: A
-==========================================
-
+-----------------------------------------------
 DAFTAR PRODUK:
 1. Nama  : Laptop | Harga: Rp7500000 | Stok: 5
 2. Nama  : Mouse | Harga: Rp150000 | Stok: 10
@@ -38,9 +37,9 @@ Masukkan jumlah yang ingin dibeli: 5
 
 Selamat! Anda mendapatkan diskon 10%.
 
-==========================================
+----------------------------------------------
               DETAIL PESANAN
-==========================================
+----------------------------------------------
 Produk          : Keyboard
 Harga           : Rp300000
 Jumlah          : 5
@@ -49,10 +48,10 @@ Diskon          : Rp150000
 Setelah Diskon  : Rp1350000
 Ongkir          : Rp10000
 Total Bayar     : Rp1360000
-==========================================
+_______________________________________________
 Masukkan uang pembayaran: Rp1500000
 Uang Bayar      : Rp1500000
 Kembalian       : Rp140000
-==========================================
+_______________________________________________
        PESANAN BERHASIL DIBUAT!
 Terima kasih telah berbelanja di Cihuyy Store.
