@@ -4,10 +4,24 @@ NIM   : L0325029
 Kelas : B Informatika PSDKU
 Matkul: Pemrograman Berorientasi Objek
 
-Penjelasan sistem:
-Saya memilih sistem Toko Online 
+# Deskripsi Sistem:
+Sistem Toko Online merupakan program Java sederhana yang mensimulasikan proses pembelian produk secara online. Pengguna dapat melihat daftar produk beserta harga dan stok, memilih produk, menentukan jumlah pembelian, mendapatkan diskon berdasarkan total belanja, menghitung ongkir, serta melakukan pembayaran. Sistem juga melakukan pengecekan terhadap stok dan input pengguna sehingga transaksi dapat diproses dengan lebih aman. 
 
-Output Program:
+Penerapan materi pada program:
+| No.   | Materi                  | Penerapan dalam Sistem                                                                                                                                                |
+| ----- | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1** | **Class & Object**      | Class `Produk` digunakan untuk merepresentasikan produk. Object `produk1`, `produk2`, dan `produk3` dibuat berdasarkan class tersebut.                                |
+| **2** | **Constructor**         | Constructor `Produk(String nama, double harga, int stok)` digunakan untuk memberikan nilai awal nama, harga, dan stok setiap produk.                                  |
+| **3** | **Konstanta (`final`)** | Konstanta `ONGKIR`, `BATAS_DISKON`, dan `PERSEN_DISKON` digunakan untuk menyimpan nilai yang bersifat tetap selama program berjalan.                                  |
+| **4** | **Kondisional**         | `if`, `else if`, dan `else` digunakan untuk mengecek pilihan produk, jumlah pembelian, ketersediaan stok, pemberian diskon, serta kecukupan uang pembayaran.          |
+| **5** | **Looping**             | Perulangan `for` digunakan untuk menampilkan seluruh produk yang tersimpan dalam `ArrayList`.                                                                         |
+| **6** | **Exception Handling**  | `try-catch` digunakan untuk menangani kesalahan ketika pengguna memasukkan input yang tidak sesuai, misalnya memasukkan huruf ketika program meminta angka.           |
+| **7** | **Character & String**  | Tipe `char` digunakan pada `kategoriToko`, sedangkan `String` digunakan pada `namaToko`. Method `length()` dan `toUpperCase()` digunakan untuk memproses data String. |
+| **8** | **Array/Collection**    | `ArrayList<Produk>` digunakan untuk menyimpan beberapa object produk dalam satu collection.                                                                           |
+| **9** | **Object & Output**     | Object produk dibuat menggunakan `new Produk(...)` dan hasil proses ditampilkan menggunakan `System.out.println()`.                                                   |
+
+
+# Output Program:
 ==========================================
             Cihuyy Store
          Kategori: A
