@@ -1,4 +1,4 @@
-# Lab Session 01 PBO
+# Tugas Praktikum 04 PBO
 Nama  : Indah Rahmadianti
 NIM   : L0325029
 Kelas : B Informatika PSDKU
@@ -751,10 +751,9 @@ Output dapat berbeda sesuai dengan transaksi yang dilakukan selama program dijal
 
 # 18. Kesimpulan
 
-Program **Java Mini Library Management System** berhasil menerapkan konsep dasar *Object-Oriented Programming* dan fitur dasar Java yang menjadi ketentuan tugas. Program memiliki beberapa class yang dipisahkan berdasarkan fungsinya menggunakan *package*, menggunakan *constructor* dan *object* untuk membentuk data buku dan anggota, serta menggunakan *method* untuk menjalankan berbagai proses sistem.
+Program **Java Mini Library Management System** memiliki beberapa class yang dipisahkan berdasarkan fungsinya menggunakan *package*, menggunakan *constructor* dan *object* untuk membentuk data buku dan anggota, serta menggunakan *method* untuk menjalankan berbagai proses sistem.
 
 Selain pengelolaan data buku dan anggota, program juga menerapkan proses peminjaman dan pengembalian dengan validasi, *custom exception*, dan *assertion*. Penggunaan `ArrayList` dan `HashMap` memungkinkan data buku, anggota, daftar pinjaman, serta riwayat peminjaman dikelola secara terstruktur.
 
 Program juga menyediakan fitur pencarian menggunakan manipulasi `String`, penggunaan `Character`, struktur kontrol berupa *conditional* dan *looping*, serta analisis berupa total transaksi, buku yang paling sering dipinjam, anggota dengan jumlah pinjaman aktif terbanyak, dan jumlah koleksi berdasarkan kategori.
 
-Dengan demikian, program tidak hanya menerapkan operasi pengelolaan data, tetapi juga menunjukkan penerapan berbagai konsep Java yang dipersyaratkan dalam tugas ke dalam sebuah sistem perpustakaan sederhana.
