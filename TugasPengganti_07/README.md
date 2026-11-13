@@ -57,52 +57,7 @@ PenggantiPertemuan7/
 
 ## Output Program
 
--==================================
-   PROGRAM PENGELOLAAN NILAI
--==================================
-Masukkan jumlah mahasiswa: 2
-
-Data Mahasiswa ke-1
-Nama mahasiswa : uu
-NIM mahasiswa  : P01
-Nilai mahasiswa: 77
-Kesalahan data: NIM hanya boleh berisi angka!
-Nama mahasiswa : uu
-NIM mahasiswa  : 001
-Nilai mahasiswa: 77
-Data mahasiswa berhasil ditambahkan!
-
-Data Mahasiswa ke-2
-Nama mahasiswa : ii
-NIM mahasiswa  : 002
-Nilai mahasiswa: 87
-Data mahasiswa berhasil ditambahkan!
-
--==================================
-       REKAPITULASI NILAI
--==================================
-Nama   : UU
-NIM    : 001
-Nilai  : 77.0
-Grade  : B
-Status : LULUS
-.----------------------------------
-Nama   : II
-NIM    : 002
-Nilai  : 87.0
-Grade  : A
-Status : LULUS
-.----------------------------------
-
-Jumlah mahasiswa : 2
-Rata-rata nilai  : 82,00
-Jumlah lulus     : 2
-Jumlah tidak lulus: 0
-
-Laporan berhasil disimpan ke laporan_nilai.txt
-Program telah selesai dijalankan.
-
-# Program menghasilkan dua bentuk keluaran:
+Program menghasilkan dua bentuk keluaran:
 
 1. **Console Output:** Menampilkan data mahasiswa, nilai, grade, status kelulusan, rata-rata nilai, serta jumlah mahasiswa yang lulus dan tidak lulus.
 2. **File Output:** Menyimpan seluruh data dan statistik kelas secara permanen dalam file `laporan_nilai.txt`.

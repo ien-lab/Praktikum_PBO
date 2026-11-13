@@ -38,31 +38,7 @@ Beberapa konsep pemrograman Java yang diterapkan dalam program ini meliputi:
 - **Try-With-Resources:** Mengelola sumber daya secara otomatis agar writer dan reader ditutup setelah digunakan.
 - **Operator Aritmatika:** Melakukan penjumlahan nilai dan menghitung rata-rata kelas.
 
-## 4. Contoh Output
 
-Masukkan jumlah siswa: 1
-
-Data Siswa ke-1
-Nama siswa: oik
-Nilai siswa: 95
-
-Data berhasil disimpan ke file.
-
-===== ISI FILE LAPORAN NILAI =====
-===== LAPORAN NILAI SISWA =====
---------------------------------
-Nama   : oik
-Nilai  : 95.0
-Status : Lulus
---------------------------------
-
-===== RINGKASAN NILAI =====
-Rata-rata nilai kelas : 95.0
-Jumlah siswa lulus    : 1
-Jumlah siswa tidak lulus : 0
-
-Proses pengelolaan nilai selesai.
-
-## 5. Kesimpulan
+## 4. Kesimpulan
 
 Program ini menunjukkan penerapan konsep dasar pemrograman Java dalam pengelolaan data menggunakan input/output file. Melalui kombinasi percabangan, perulangan, pengolahan data, dan file handling, program dapat mengelola nilai siswa secara sederhana serta menyimpan hasilnya secara permanen dalam file teks. Implementasi ini juga memperlihatkan pentingnya exception handling dan pengelolaan sumber daya dalam pembuatan program yang lebih terstruktur dan aman.
