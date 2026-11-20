@@ -1,4 +1,4 @@
-# Lab Session 02 PBO
+# Lab Session 03 PBO
 Nama  : Indah Rahmadianti
 NIM   : L0325029
 Kelas : B Informatika PSDKU
@@ -20,9 +20,6 @@ membuat jendela aplikasi macet.
 
 ## 2. Struktur Class
 
-  -----------------------------------------------------------------------
-  Class                               Penjelasan
-  ----------------------------------- -----------------------------------
   `Pesanan.java`                      Mengelola data transaksi,
                                       menghitung subtotal, diskon 10%
                                       jika subtotal lebih dari Rp50.000,
@@ -44,7 +41,7 @@ membuat jendela aplikasi macet.
                                       ini menguji logika transaksi,
                                       menjalankan dua thread kasir, lalu
                                       membuka aplikasi GUI.
-  -----------------------------------------------------------------------
+
 
 Seluruh class ditempatkan dalam package `lab.kasir` sesuai petunjuk
 praktikum.
