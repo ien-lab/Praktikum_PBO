@@ -43,9 +43,6 @@ membuat jendela aplikasi macet.
                                       membuka aplikasi GUI.
 
 
-Seluruh class ditempatkan dalam package `lab.kasir` sesuai petunjuk
-praktikum.
-
 ## 3. Penjelasan tiap tahap
 
 ### Tahap 1 -- Class Logika
@@ -59,7 +56,7 @@ Program juga menambahkan `getDiskon()` agar nilai potongan dapat
 ditampilkan secara terpisah pada struk.
 
 Pada tahap ini terdapat pembuatan class pesanan, atribut private, method penambahan item, 
-pembacaan subtotal, perhitungan diskon, dan reset. 
+pembacaan subtotal, perhitungan diskon, dan reset.
 
 ### Tahap 2 -- Dua Kasir sebagai Thread
 
@@ -69,7 +66,6 @@ perulangan pelayanan pelanggan dan `Thread.sleep(400)` untuk memberi
 jeda pada setiap pelayanan. Di `MainKasir`, objek Dina dan Eko
 dijalankan menggunakan `start()`. Method `join()` digunakan agar program
 utama menunggu kedua kasir selesai.
-
 
 ### Tahap 3 -- Tampilan GUI Kasir
 
@@ -96,11 +92,15 @@ label status pada GUI menjadi **Struk selesai dicetak**.
 Tahap ini menjalankan proses cetak melalui thread baru menggunakan 
 `start()`, menunggu dua detik, dan memperbarui status. 
 Karena waktu tunggu dilakukan di thread terpisah, Event Dispatch Thread (EDT)
-tidak tertahan oleh proses tersebut sehingga jendela tetap responsif. 
+tidak tertahan oleh proses tersebut sehingga jendela tetap responsif.
 
 ## 4. Penjelasan Output Program
 
 ### Output Tahap 1 -- Perhitungan Transaksi
+
+![Screenshot Tahap 1 – Class Logika](screenshots/tahap1.png)
+
+*Gambar 1. Hasil perhitungan transaksi: subtotal Rp70.000, diskon Rp7.000, dan total Rp63.000.*
 
 Data pengujian yang digunakan:
 
@@ -118,6 +118,10 @@ Rp70.000. Karena subtotal lebih dari Rp50.000, sistem memberikan diskon
 
 ### Output Tahap 2 -- Simulasi Dua Kasir
 
+![Screenshot Tahap 2 – Multithreading](screenshots/tahap2.png)
+
+*Gambar 2. Simulasi Kasir Dina dan Eko yang melayani pelanggan menggunakan dua thread.*
+
 Terminal menampilkan aktivitas Kasir Dina dan Kasir Eko yang melayani
 pelanggan. Keduanya berjalan secara bersamaan, sehingga baris keluaran
 dapat muncul bergantian dan urutannya tidak harus selalu sama. Setelah
@@ -126,6 +130,10 @@ selesai dilayani."** sebagai tanda bahwa seluruh pelayanan telah
 berakhir.
 
 ### Output Tahap 3 -- GUI Kasir
+
+![Screenshot Tahap 3 – GUI Kasir](screenshots/tahap3.png)
+
+*Gambar 3. Tampilan aplikasi kasir dengan form input, tombol transaksi, detail pesanan, dan ringkasan pembayaran.*
 
 Jendela aplikasi menampilkan form nama menu, harga, dan jumlah, serta
 tombol Tambah Item, Hitung Total, dan Cetak Struk. Ketika item berhasil
@@ -138,6 +146,10 @@ Dengan data uji pada Tahap 1, hasil yang ditampilkan adalah subtotal
 **Rp70.000**, diskon **Rp7.000**, dan total **Rp63.000**.
 
 ### Output Tahap 4 -- Simulasi Cetak Struk
+
+![Screenshot Tahap 4 – Cetak Struk](screenshots/tahap4.png)
+
+*Gambar 4. Pemberitahuan bahwa simulasi cetak struk berhasil dan status telah selesai.*
 
 Saat tombol Cetak Struk ditekan, label status berubah menjadi
 **"Mencetak struk..."**. Setelah jeda dua detik, status berubah menjadi
@@ -163,3 +175,4 @@ Rp63.000. Dengan demikian, program telah mencakup fungsi utama yang
 diminta pada keempat tahap praktikum, dengan beberapa pengembangan
 berupa validasi input, tampilan rincian diskon, format Rupiah, dan
 informasi status transaksi.
+
